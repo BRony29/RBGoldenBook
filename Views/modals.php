@@ -139,7 +139,7 @@
                     <input type="hidden" name="honeyPot">
                 </div>
                 <div class="modal-body">
-                    <input type="hidden" class="form-control form-control-sm text-dark bg-light my-2" disabled name="idDelete">
+                    <input type="hidden" class="form-control form-control-sm text-dark bg-light my-2" readonly name="idDelete">
                     <h6 class="modal-title">Est-vous sûr ?</h6>
                 </div>
                 <div class="modal-footer">
@@ -170,7 +170,7 @@
                         <textarea class="form-control form-control-sm text-dark bg-light noresize" rows="7" name="commentEdit" placeholder="Commentaire" required></textarea>
                     </div>
                     <div class="modal-body3">
-                        <input type="hidden" class="form-control form-control-sm text-dark bg-light noresize mt-2" name="idEdit" disabled required>
+                        <input type="hidden" class="form-control form-control-sm text-dark bg-light noresize mt-2" name="idEdit" readonly required>
                     </div>
                 </div>
                 <div class="modal-footer">
