@@ -1,0 +1,10 @@
+.goldenbook {
+    min-height: calc(100vh - 200px);
+    font-size: 1em;
+    .goldenbook__content {
+        background-color: $backgroundGoldenbookContent;
+        &:hover {
+            background-color: $backgroundGoldenbookContentHover;
+        }
+    }
+}

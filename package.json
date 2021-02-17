@@ -1,0 +1,11 @@
+{
+    "name": "rbgoldenbook",
+    "version": "1.0.0",
+    "description": "A simple Golden Book !",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch /public/css/style.scss:/public/css/style.css --style expanded"
+    },
+    "author": "",
+    "license": "ISC"
+}

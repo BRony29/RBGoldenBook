@@ -1,0 +1,6 @@
+.textAnim {
+    transition: all .3s linear;
+    &:hover {
+        transform: translate(4px, 4px);
+    }
+}
