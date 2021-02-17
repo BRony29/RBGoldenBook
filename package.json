@@ -1,11 +1,19 @@
 {
     "name": "rbgoldenbook",
-    "version": "1.0.0",
-    "description": "A simple Golden Book !",
+    "version": "1.1.0",
+    "description": "Mhy personal Golden Book",
     "main": "index.js",
     "scripts": {
         "sass": "sass --watch /public/css/style.scss:/public/css/style.css --style expanded"
     },
-    "author": "",
-    "license": "ISC"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BRony29/RBGoldenBook.git"
+    },
+    "author": "Bégoc Ronald",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BRony29/RBGoldenBook/issues"
+    },
+    "homepage": "https://github.com/BRony29/RBGoldenBook#readme"
 }
