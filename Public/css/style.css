@@ -46,6 +46,18 @@ body {
   background-color: #f8f9fa;
 }
 
+@media screen and (max-device-width: 767.98px) {
+  .header__login {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-device-width: 767.98px) {
+  .header .h1 {
+    font-size: 1.1em;
+  }
+}
+
 .footer {
   background-color: #f8f9fa;
   font-size: 1em;
@@ -74,5 +86,17 @@ body {
 
 .goldenbook .goldenbook__content:hover {
   background-color: #343a40;
+}
+
+@media screen and (max-device-width: 991.98px) {
+  .goldenbook {
+    font-sier: 0.9em;
+  }
+}
+
+@media screen and (max-device-width: 767.98px) {
+  .goldenbook {
+    font-size: 0.8em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

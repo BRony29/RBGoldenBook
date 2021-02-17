@@ -1,3 +1,13 @@
 .header {
     background-color: $backgroundHeader;
+    &__login {
+        @media screen and (max-device-width: 767.98px) {
+            font-size: 0.8em;
+        }
+    }
+    .h1 {
+        @media screen and (max-device-width: 767.98px) {
+            font-size: 1.1em;
+        }
+    }
 }
