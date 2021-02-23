@@ -1,102 +1,104 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 body {
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .noresize {
-  resize: none;
+    resize: none;
 }
 
 .bg-gray {
-  background-color: #adb5bd;
+    background-color: #adb5bd;
 }
 
-.btn-group-xs > .btn {
-  padding: .20rem .20rem;
-  font-size: .875rem;
-  line-height: .5;
-  border-radius: .2rem;
+.btn-group-xs>.btn {
+    padding: .20rem .20rem;
+    font-size: .875rem;
+    line-height: .5;
+    border-radius: .2rem;
 }
 
 .btn-xs {
-  padding: .20rem .20rem;
-  font-size: .875rem;
-  line-height: .5;
-  border-radius: .2rem;
+    padding: .20rem .20rem;
+    font-size: .875rem;
+    line-height: .5;
+    border-radius: .2rem;
 }
 
 .textAnim {
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .textAnim:hover {
-  -webkit-transform: translate(4px, 4px);
-          transform: translate(4px, 4px);
+    -webkit-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
 }
 
 .header {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 @media screen and (max-device-width: 767.98px) {
-  .header__login {
-    font-size: 0.8em;
-  }
+    .header__login {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (max-device-width: 767.98px) {
-  .header .h1 {
-    font-size: 1.1em;
-  }
+    .header .h1 {
+        font-size: 1.1em;
+    }
 }
 
 .footer {
-  background-color: #f8f9fa;
-  font-size: 1em;
+    background-color: #f8f9fa;
+    font-size: 1em;
 }
 
 @media screen and (max-device-width: 991.98px) {
-  .footer {
-    font-size: 0.9em;
-  }
+    .footer {
+        font-size: 0.9em;
+    }
 }
 
 @media screen and (max-device-width: 767.98px) {
-  .footer {
-    font-size: 0.8em;
-  }
+    .footer {
+        font-size: 0.8em;
+    }
 }
 
 .goldenbook {
-  min-height: calc(100vh - 200px);
-  font-size: 1em;
+    min-height: calc(100vh - 200px);
+    font-size: 1em;
 }
 
 .goldenbook .goldenbook__content {
-  background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .goldenbook .goldenbook__content:hover {
-  background-color: #343a40;
+    background-color: #343a40;
 }
 
 @media screen and (max-device-width: 991.98px) {
-  .goldenbook {
-    font-sier: 0.9em;
-  }
+    .goldenbook {
+        font-size: 0.9em;
+    }
 }
 
 @media screen and (max-device-width: 767.98px) {
-  .goldenbook {
-    font-size: 0.8em;
-  }
+    .goldenbook {
+        font-size: 0.8em;
+    }
 }
+
+
 /*# sourceMappingURL=style.css.map */
